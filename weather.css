@@ -1,0 +1,86 @@
+/* weather.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.seach {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.searchbar {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.searchbtn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4facfe;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.searchbtn:hover {
+    background-color: #00c3ff;
+}
+
+.cityweather {
+    margin-top: 15px;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.weather {
+    font-size: 2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.cityname {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.wathericon {
+    width: 80px;
+    height: 80px;
+}
+
+.humidity,
+.windspeed {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 8px;
+}
